@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 public class Driverinitialization {
 
 	public static WebDriver driver;
-	public static String URL = "http://transport-hub-qa-release.com.s3-website.ap-south-1.amazonaws.com/";
+	public static String URL = "http://qdms-phase-3.s3-website.ap-south-1.amazonaws.com/";
 	 
 @BeforeMethod
 	public  void main() {

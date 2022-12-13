@@ -24,7 +24,7 @@ public class LoginTest extends Driverinitialization {
 		
 		PageFactory.initElements(driver, loginpg);
 		
-        FileInputStream file = new FileInputStream("C:\\Users\\Priyanka\\Documents\\Automation new (06-12-2202)\\com.ii.qa\\src\\test\\java\\com\\ii\\qa\\excel\\New Microsoft Excel Worksheet.xlsx");
+        FileInputStream file = new FileInputStream("C:\\Users\\Priyanka\\Documents\\Automation new (06-12-2202)\\Automation_TH\\src\\test\\java\\com\\ii\\qa\\excel\\New Microsoft Excel Worksheet.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 	    XSSFSheet sheet = workbook.getSheet("Login");
 		

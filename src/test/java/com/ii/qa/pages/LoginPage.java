@@ -7,11 +7,11 @@ public class LoginPage {
 
 	
 		// TODO Auto-generated method stub
-		@FindBy(id = "email")
+		@FindBy(id = "usernameOrEmail")
 		public static WebElement Username;
 		@FindBy(id = "password")
 		public static WebElement Password;
-		@FindBy(id = "mui-1")
+		@FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/div/div[1]/form/div/div[3]/div/div/span/button")
 		public static WebElement LoginButton;
 
 }
