@@ -4,6 +4,7 @@ package com.ii.qa.base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 
 
 
@@ -13,7 +14,7 @@ public class Driverinitialization {
 	public static WebDriver driver;
 	public static String URL = "http://qdms-phase-3.s3-website.ap-south-1.amazonaws.com/";
 	 
-@BeforeMethod
+@BeforeSuite
 	public  void main() {
 		
 		//Setting system properties of ChromeDriver
