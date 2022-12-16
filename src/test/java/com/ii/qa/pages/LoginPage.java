@@ -5,7 +5,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage {
 
-	
 		// TODO Auto-generated method stub
 		@FindBy(id = "usernameOrEmail")
 		public static WebElement Username;

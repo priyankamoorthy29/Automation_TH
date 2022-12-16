@@ -24,7 +24,8 @@ public class LoginTest extends Driverinitialization {
 		
 		PageFactory.initElements(driver, loginpg);
 		
-        FileInputStream file = new FileInputStream("C:\\Users\\Priyanka\\Documents\\Automation new (06-12-2202)\\Automation_TH\\src\\test\\java\\com\\ii\\qa\\excel\\New Microsoft Excel Worksheet.xlsx");
+		Thread.sleep(2000);
+        FileInputStream file = new FileInputStream("C:\\Users\\Priyanka\\Documents\\PRIYANKA-AUTOMATION\\Automation_TH\\src\\test\\java\\com\\ii\\qa\\excel\\New Microsoft Excel Worksheet.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 	    XSSFSheet sheet = workbook.getSheet("Login");
 		
@@ -37,11 +38,12 @@ public class LoginTest extends Driverinitialization {
 			
 			
 			//if(driver.getCurrentUrl().contains(URL)) {
-			LoginPage.Username.clear();
+		
 			LoginPage.Username.sendKeys(uName);
-			LoginPage.Password.clear();
 			LoginPage.Password.sendKeys(pWord);
 			LoginPage.LoginButton.click();
+			Thread.sleep(2500);
+			driver.navigate().refresh();
 			Thread.sleep(2500);
 			
 //			if (driver.getCurrentUrl().contains(expect)) {
