@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeSuite;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Driverinitialization {
 
 	public static WebDriver driver;
@@ -14,7 +16,7 @@ public class Driverinitialization {
 	public  void main() {
 		
 		//Setting system properties of ChromeDriver
-    System.setProperty("webdriver.chrome.driver","C:\\Browser Drivers\\chromedriver.exe");
+	    WebDriverManager.chromedriver().setup();
 
         driver = new ChromeDriver();
 		driver.manage().window().maximize();

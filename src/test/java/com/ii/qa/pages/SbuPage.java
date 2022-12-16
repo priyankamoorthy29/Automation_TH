@@ -15,7 +15,7 @@ public class SbuPage {
 	public static WebElement EnterSubBusinessUnit;
 	@FindBy(xpath = "//*[@id=\"description\"]")
 	public static WebElement EnterDescription;
-	@FindBy(xpath= "/html/body/div[3]/div/div[2]/div/div[2]/div[3]/div/button[2]/span")
+	@FindBy(xpath= "/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]")
 	public static WebElement Save;
 
 }

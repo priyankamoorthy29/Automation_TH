@@ -31,7 +31,7 @@ public void AddSub() throws InterruptedException, IOException {
          Thread.sleep(2000);
          SbuPage.AddSubBusinessUnit.click();
 		
-		 FileInputStream file = new FileInputStream("C:\\QDMS-GITHUB\\Automation_TH\\src\\test\\java\\com\\ii\\qa\\excel\\New Microsoft Excel Worksheet.xlsx");
+		 FileInputStream file = new FileInputStream("C:\\Users\\Priyanka\\Documents\\PRIYANKA-AUTOMATION\\Automation_TH\\src\\test\\java\\com\\ii\\qa\\excel\\New Microsoft Excel Worksheet.xlsx");
          XSSFWorkbook workbook = new XSSFWorkbook(file);
          XSSFSheet sheet = workbook.getSheet("SBU");
          
@@ -46,9 +46,9 @@ public void AddSub() throws InterruptedException, IOException {
 		
 		SbuPage.EnterSubBusinessUnit.sendKeys(EnterSUB);
 		SbuPage.EnterDescription.sendKeys(EnterDiscription);
-		
+		Thread.sleep(2000);
 		SbuPage.Save.click();
-
+		
 }
 	}
 
