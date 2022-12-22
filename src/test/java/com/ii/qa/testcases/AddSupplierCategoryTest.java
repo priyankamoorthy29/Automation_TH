@@ -14,25 +14,25 @@ import com.ii.qa.pages.HomePage;
 import com.ii.qa.pages.LoginPage;
 import com.ii.qa.pages.SupplierCategoryPage;
 
-public class SupplierCategoryTest extends Driverinitialization{
+public class AddSupplierCategoryTest extends Driverinitialization{
 	SupplierCategoryPage scPage = new SupplierCategoryPage();
 	LoginPage loginpg = new LoginPage();
 	HomePage home = new HomePage();
 	
-	@BeforeTest
-	public void login() {
-		PageFactory.initElements(driver, loginpg);
-		LoginPage.Username.sendKeys("admin");
-		LoginPage.Password.sendKeys("tokyo@admin");
-		LoginPage.LoginButton.click();
-	}
-	
-	@Test(priority = 0)
-	public void ClickHome() throws InterruptedException {
-		PageFactory.initElements(driver, home);
-		Thread.sleep(2000);
-		HomePage.ClickMasterBtn.click();
-	}
+//	@BeforeTest
+//	public void login() {
+//		PageFactory.initElements(driver, loginpg);
+//		LoginPage.Username.sendKeys("admin");
+//		LoginPage.Password.sendKeys("tokyo@admin");
+//		LoginPage.LoginButton.click();
+//	}
+//	
+//	@Test(priority = 0)
+//	public void ClickHome() throws InterruptedException {
+//		PageFactory.initElements(driver, home);
+//		Thread.sleep(2000);
+//		HomePage.ClickMasterBtn.click();
+//	}
 	@Test(priority = 0)
 	public void navigateSupplier() {
 		PageFactory.initElements(driver, scPage);

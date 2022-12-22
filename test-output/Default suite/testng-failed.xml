@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ii.qa.testcases.LoginTest">
+      <class name="com.ii.qa.testcases.AddSupplierTest">
         <methods>
           <include name="main"/>
-          <include name="Login"/>
+          <include name="login"/>
+          <include name="AddSupplier"/>
+          <include name="navigateSupplier"/>
         </methods>
-      </class> <!-- com.ii.qa.testcases.LoginTest -->
+      </class> <!-- com.ii.qa.testcases.AddSupplierTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

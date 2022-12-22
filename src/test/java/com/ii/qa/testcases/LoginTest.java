@@ -25,7 +25,7 @@ public class LoginTest extends Driverinitialization {
 		PageFactory.initElements(driver, loginpg);
 		
 		Thread.sleep(2000);
-        FileInputStream file = new FileInputStream("C:\\Users\\Priyanka\\Documents\\PRIYANKA-AUTOMATION\\Automation_TH\\src\\test\\java\\com\\ii\\qa\\excel\\New Microsoft Excel Worksheet.xlsx");
+        FileInputStream file = new FileInputStream("D:\\QDMS\\Automation_TH\\src\\test\\java\\com\\ii\\qa\\excel\\New Microsoft Excel Worksheet.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 	    XSSFSheet sheet = workbook.getSheet("Login");
 		
@@ -35,16 +35,19 @@ public class LoginTest extends Driverinitialization {
     
 			String uName = (String)row.getCell(0).getStringCellValue();
 			String pWord = (String)row.getCell(1).getStringCellValue();
-			
+			boolean check = (boolean)row.getCell(3).getBooleanCellValue();
 			
 			//if(driver.getCurrentUrl().contains(URL)) {
 		
-			LoginPage.Username.sendKeys(uName);
-			LoginPage.Password.sendKeys(pWord);
-			LoginPage.LoginButton.click();
-			Thread.sleep(2500);
-			driver.navigate().refresh();
-			Thread.sleep(2500);
+			if (check==true) {
+				LoginPage.Username.sendKeys(uName);
+				LoginPage.Password.sendKeys(pWord);
+				LoginPage.LoginButton.click();
+				Thread.sleep(2500);
+				driver.navigate().refresh();
+				Thread.sleep(2500);
+			}
+			
 			
 //			if (driver.getCurrentUrl().contains(expect)) {
 //				System.out.println(uName + pWord +"22222222");

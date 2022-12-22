@@ -4,7 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.ii.qa.testcases.LoginTest"/>
-      <class name="com.ii.qa.testcases.SbuTest"/>  
+      <class name="com.ii.qa.testcases.HomeTest"/>  
+      <class name="com.ii.qa.testcases.SupplierCategoryTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
