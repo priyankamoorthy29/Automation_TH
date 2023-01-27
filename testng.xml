@@ -3,10 +3,20 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <!--<class name="com.ii.qa.testcases.LoginTest"/>-->
       <class name="com.ii.qa.testcases.LoginTest"/>
-      <class name="com.ii.qa.testcases.SbuTest"/>
+      <!--  <class name="com.ii.qa.testcases.Delivery.DeliveryEditTestCases"/> -->
       
-       
+        <!--  <class name="SupplierSupplier.AddSupplierSupplierTestCases"/> -->
+        <!--  <class name="SupplierSupplier.DeleteSupplierSupplierTestCases"/> -->
+        <!--  <class name="SupplierSupplier.EditSupplierSupplierTestCases"/> -->
+        
+         <!--  <class name="com.ii.qa.testcases.Delivery.EquipmentTestCases.AddEquipmentTestCases"/>-->
+      <!--  <class name="com.ii.qa.testcases.Delivery.EquipmentTestCases.DeleteEuipmentTestCases"/>-->
+      <!--  <class name="com.ii.qa.testcases.Delivery.EquipmentTestCases.EditEquipmentTestCases"/>-->
+      
+      <!-- <class name="com.ii.qa.testcases.Employee.AddEmployee"/>-->
+       <class name="com.ii.qa.testcases.MaterialMainCategoryButtonTestCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

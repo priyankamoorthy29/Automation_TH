@@ -3,14 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.ii.qa.testcases.LicenceTest">
+      <class name="com.ii.qa.testcases.MaterialMainCategoryButtonTestCases">
         <methods>
           <include name="main"/>
-          <include name="AddLicenceFunctionality"/>
-          <include name="DeleteLicenceFunctionality"/>
-          <include name="ViewLicenceAddForm"/>
+          <include name="MMCPage"/>
         </methods>
-      </class> <!-- com.ii.qa.testcases.LicenceTest -->
+      </class> <!-- com.ii.qa.testcases.MaterialMainCategoryButtonTestCases -->
       <class name="com.ii.qa.testcases.LoginTest">
         <methods>
           <include name="main"/>
