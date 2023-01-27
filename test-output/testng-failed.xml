@@ -9,12 +9,6 @@
           <include name="MMCPage"/>
         </methods>
       </class> <!-- com.ii.qa.testcases.MaterialMainCategoryButtonTestCases -->
-      <class name="com.ii.qa.testcases.LoginTest">
-        <methods>
-          <include name="main"/>
-          <include name="Login"/>
-        </methods>
-      </class> <!-- com.ii.qa.testcases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

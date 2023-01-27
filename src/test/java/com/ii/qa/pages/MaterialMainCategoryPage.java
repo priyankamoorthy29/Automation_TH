@@ -3,7 +3,7 @@ package com.ii.qa.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class MaterialMainCategoryPage {
+public class MaterialMainCategoryPage {  
 
 	@FindBy(xpath = "//a[@class='sc-bdVaJa ieeiNp'][@href=\"#/master/plantlevel\"]")
 	public static WebElement Master;
