@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ii.qa.testcases.LoginTest">
+      <class name="com.ii.qa.testcases.MaterialMainCategoryButtonTestCases">
         <methods>
           <include name="main"/>
-          <include name="Login"/>
+          <include name="MMCPage"/>
         </methods>
-      </class> <!-- com.ii.qa.testcases.LoginTest -->
+      </class> <!-- com.ii.qa.testcases.MaterialMainCategoryButtonTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
