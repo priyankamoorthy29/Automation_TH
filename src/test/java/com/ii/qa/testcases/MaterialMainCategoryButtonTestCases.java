@@ -57,7 +57,6 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
         
                 String ActualfontsSize = AddMainMaterialCategoryButton.getCssValue("font-size"); 
                 System.out.println("Font Size: "+ActualfontsSize); 
-                
                 String ExpectedfontsSize ="14px";
                 
                 sa.assertEquals(ActualfontsSize,ExpectedfontsSize);        
@@ -74,14 +73,11 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
                 
                 String ActualColour = AddMainMaterialCategoryButton.getCssValue("background-color");
                 System.out.println("rgb :"+ActualColour);
-                
-                 
-                //String hexcolour = Color.fromString(ActualColour).asHex();
                 String ExpectedColour = "rgba(0, 19, 40)";
         
         
                 sa.assertEquals(ActualColour,ExpectedColour);
                 sa.assertAll();
-//
+
 		}	
 }
