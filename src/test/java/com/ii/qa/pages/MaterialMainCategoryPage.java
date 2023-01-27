@@ -16,7 +16,7 @@ public class MaterialMainCategoryPage {
 	
 	@FindBy(xpath = "/html/body/div[1]/div/section/section/main/div/div/div[2]/div/div/div/div/div/div[1]/div/div[3]/button/span")
 	public static WebElement AddMaterialMainCategoryButton; 
-	
+	//
 	
 
 }
