@@ -43,7 +43,7 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
         // Find Button Position
         Point ActualLocation = AddMainMaterialCategoryButton.getLocation();
         
-        int actual_x = ActualLocation.getX();
+        int actual_x = ActualLocation.getX(); 
         int actual_y = ActualLocation.getY();
         
         System.out.println("X axis: "+actual_x); 
@@ -62,7 +62,7 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
                 
                 sa.assertEquals(ActualfontsSize,ExpectedfontsSize);        
                 
-        // Check the size
+        // Check the size of the button
                 
                 Dimension ActualSize = AddMainMaterialCategoryButton.getSize();
                 System.out.println("Size :"+ActualSize);
@@ -82,6 +82,6 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
         
                 sa.assertEquals(ActualColour,ExpectedColour);
                 sa.assertAll();
-
+//
 		}	
 }
