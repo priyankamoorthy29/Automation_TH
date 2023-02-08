@@ -2,26 +2,26 @@
 <testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-27T11:52:27Z" name="Suite" finished-at="2023-01-27T11:52:55Z" duration-ms="27183">
+  <suite started-at="2023-02-08T03:20:38Z" name="Suite" finished-at="2023-02-08T03:21:10Z" duration-ms="31643">
     <groups>
     </groups>
-    <test started-at="2023-01-27T11:52:27Z" name="Test" finished-at="2023-01-27T11:52:55Z" duration-ms="27183">
-      <class name="com.ii.qa.testcases.MaterialMainCategoryButtonTestCases">
-        <test-method signature="MMCPage()[pri:0, instance:com.ii.qa.testcases.MaterialMainCategoryButtonTestCases@7ca0863b]" started-at="2023-01-27T11:52:37Z" name="MMCPage" finished-at="2023-01-27T11:52:55Z" duration-ms="18020" status="PASS">
+    <test started-at="2023-02-08T03:20:38Z" name="Test" finished-at="2023-02-08T03:21:10Z" duration-ms="31643">
+      <class name="com.ii.qa.testcases.ButtonTC.CheckBoxTestCases">
+        <test-method signature="checkbox()[pri:0, instance:com.ii.qa.testcases.ButtonTC.CheckBoxTestCases@33065d67]" started-at="2023-02-08T03:20:46Z" name="checkbox" finished-at="2023-02-08T03:21:10Z" duration-ms="23374" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MMCPage -->
-      </class> <!-- com.ii.qa.testcases.MaterialMainCategoryButtonTestCases -->
+        </test-method> <!-- checkbox -->
+      </class> <!-- com.ii.qa.testcases.ButtonTC.CheckBoxTestCases -->
       <class name="com.ii.qa.testcases.LoginTest">
-        <test-method is-config="true" signature="main()[pri:0, instance:com.ii.qa.testcases.LoginTest@529cfee5]" started-at="2023-01-27T11:52:23Z" name="main" finished-at="2023-01-27T11:52:27Z" duration-ms="4826" status="PASS">
+        <test-method is-config="true" signature="main()[pri:0, instance:com.ii.qa.testcases.LoginTest@cb0755b]" started-at="2023-02-08T03:20:30Z" name="main" finished-at="2023-02-08T03:20:38Z" duration-ms="7997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method signature="Login()[pri:0, instance:com.ii.qa.testcases.LoginTest@529cfee5]" started-at="2023-01-27T11:52:27Z" name="Login" finished-at="2023-01-27T11:52:37Z" duration-ms="9092" status="PASS">
+        <test-method signature="Login()[pri:0, instance:com.ii.qa.testcases.LoginTest@cb0755b]" started-at="2023-02-08T03:20:38Z" name="Login" finished-at="2023-02-08T03:20:46Z" duration-ms="8231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="closeChrome()[pri:0, instance:com.ii.qa.testcases.LoginTest@529cfee5]" started-at="2023-01-27T11:52:55Z" name="closeChrome" finished-at="2023-01-27T11:52:56Z" duration-ms="939" status="PASS">
+        <test-method is-config="true" signature="closeChrome()[pri:0, instance:com.ii.qa.testcases.LoginTest@cb0755b]" started-at="2023-02-08T03:21:10Z" name="closeChrome" finished-at="2023-02-08T03:21:10Z" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChrome -->

@@ -16,7 +16,12 @@
       <!--  <class name="com.ii.qa.testcases.Delivery.EquipmentTestCases.EditEquipmentTestCases"/>-->
       
       <!-- <class name="com.ii.qa.testcases.Employee.AddEmployee"/>-->
-       <class name="com.ii.qa.testcases.MaterialMainCategoryButtonTestCases"/>
+       <!--  <class name="com.ii.qa.testcases.MaterialMainCategoryButtonTestCases"/>-->
+         <!-- <class name="com.ii.qa.testcases.ButtonTC.ForgetLinkPageTc"/> -->
+      <!--   <class name="com.ii.qa.testcases.ButtonTC.Dropdown"/>-->
+      <!--   <class name="com.ii.qa.testcases.ButtonTC.RadioButtonsTest"/>-->
+        <!--<class name="com.ii.qa.testcases.ButtonTC.TextTestCase"/>-->
+         <class name="com.ii.qa.testcases.ButtonTC.CheckBoxTestCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

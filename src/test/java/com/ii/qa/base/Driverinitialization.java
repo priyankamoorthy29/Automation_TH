@@ -13,17 +13,14 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-
-
-
 	public class Driverinitialization {
 		public static ExtentReports extent;
 	    public static ExtentHtmlReporter htmlreporter;
 	    public static ExtentTest testCase;
     
 	public static WebDriver driver;
-	public static String URL = "http://192.168.1.35:8083";
-	 
+	public static String URL = "http://qa-automation-release.s3-website-us-east-1.amazonaws.com";
+	//public static String URL = "http://qa-automation-with-defect.s3-website-us-east-1.amazonaws.com";
 @BeforeSuite
 	public  void main() throws IOException {
 		
@@ -46,11 +43,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
   public static void ExtentReport() throws IOException {
         extent = new ExtentReports();
         htmlreporter = new ExtentHtmlReporter("C:\\QDMS-GITHUB\\Automation_TH\\src\\test\\java\\reports.html");
-        
-        extent.attachReporter(htmlreporter); 
+        extent.attachReporter(htmlreporter);  
 		
     } 
 	}
-      
-
-

@@ -55,7 +55,7 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
 		SoftAssert sa  = new SoftAssert();
         WebElement AddMainMaterialCategoryButton = driver.findElement(By.xpath("//*[@id=\"root\"]/div/section/section/main/div/div/div[2]/div/div/div/div/div/div[1]/div/div[3]/button"));
 
-        // Find Button Position
+// Find Button Position
         Point ActualLocation = AddMainMaterialCategoryButton.getLocation();
         
         int actual_x = ActualLocation.getX(); 
@@ -87,7 +87,7 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
         
        //a.assertEquals(ActualLocation,ExpectedLocation);
         
-        // check font size
+// check font size
         
                 String ActualfontsSize = AddMainMaterialCategoryButton.getCssValue("font-size"); 
                 System.out.println("Font Size: "+ActualfontsSize); 
@@ -113,9 +113,9 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
 					testCase.log(Status.INFO,"Wrong font-size");
 					testCase.log(Status.FAIL,"Font-size Wrong");
 				}
-					Thread.sleep(2000);	
+					Thread.sleep(2000);	 
                  
-        // Check the size of the button
+// Check the size of the button
                 
                 Dimension ActualSize = AddMainMaterialCategoryButton.getSize();
                 System.out.println("Size :"+ActualSize);
@@ -143,7 +143,7 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
 				}
 					Thread.sleep(2000);	
                  
-        //Check test button color
+//Check test button color
                 
                 String ActualColour = AddMainMaterialCategoryButton.getCssValue("background-color");
                 System.out.println("rgb :"+ActualColour);
@@ -155,7 +155,7 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
 				try {
 				AssertJUnit.assertEquals(ActualColour, ExpectedColour);
 				} catch (AssertionError e) {
-					colour=false;
+					colour=false; 
 				}
 				if (colour) {
 					testCase.log(Status.INFO,"ActualColour :- " + ActualColour);
@@ -169,6 +169,8 @@ MaterialMainCategoryPage MMCPage = new MaterialMainCategoryPage();
 					testCase.log(Status.FAIL,"wrong Colour");
 				} 
 					Thread.sleep(2000);	
+					
+					
         
               //sa.assertEquals(ActualColour,ExpectedColour);
              // sa.assertAll();  

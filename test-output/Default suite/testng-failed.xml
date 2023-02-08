@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ii.qa.testcases.MaterialMainCategoryButtonTestCases">
+      <class name="com.ii.qa.testcases.ButtonTC.TextTestCase">
         <methods>
+          <include name="closeChrome"/>
+          <include name="Text"/>
           <include name="main"/>
-          <include name="MMCPage"/>
         </methods>
-      </class> <!-- com.ii.qa.testcases.MaterialMainCategoryButtonTestCases -->
+      </class> <!-- com.ii.qa.testcases.ButtonTC.TextTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

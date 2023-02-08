@@ -17,10 +17,10 @@ import com.ii.qa.pages.LoginPage;
 
 public class LoginTest extends Driverinitialization {
 	
-	LoginPage loginpg = new LoginPage();
+	LoginPage loginpg = new LoginPage(); 
 	
 	@Test
-	public void Login() throws InterruptedException, IOException  {
+	public void Login() throws InterruptedException, IOException  { 
 		
 		PageFactory.initElements(driver, loginpg);
 		
@@ -30,7 +30,7 @@ public class LoginTest extends Driverinitialization {
 	    XSSFSheet sheet = workbook.getSheet("Login");
 		
 	    int rowcount = sheet.getLastRowNum();
-	    for(int i=0; i<=rowcount;i++) {		
+	    for(int i=0; i<=rowcount;i++) {	 
       XSSFRow row = sheet.getRow(i);	
     
 			String uName = (String)row.getCell(0).getStringCellValue();
@@ -55,7 +55,7 @@ public class LoginTest extends Driverinitialization {
 			
 		}
 		
-		
+		 
 		
 	}
 	
